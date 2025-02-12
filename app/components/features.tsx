@@ -1,6 +1,7 @@
 "use client"
 
 import React from "react"
+import Image from "next/image"
 import { WobbleCard } from "./ui/wobble-card"
 import { TextGenerateEffect } from "./ui/text-generated-effect"
 import { CodeBlock } from "./ui/code-block"
@@ -47,7 +48,7 @@ const Features = () => {
               adaptándome a diversos sectores y necesidades de clientes.
             </p>
           </div>
-          <div className="absolute -right-4 lg:-right-[10%] lg:top-[15%] filter -bottom-20 object-contain rounded-2xl">
+          <div className="absolute -right-4 lg:-right-[10%] sm:top-[50%] xs:top-[50%] lg:top-[15%] filter -bottom-20 object-contain rounded-2xl">
             <CodeBlock
               language="jsx"
               filename="DummyComponent.jsx"
@@ -57,7 +58,7 @@ const Features = () => {
           </div>
         </WobbleCard>
         <WobbleCard
-          containerClassName="col-span-1 lg:col-span-2 h-full bg-variant min-h-[500px] lg:min-h-[300px]"
+          containerClassName="col-span-1 lg:col-span-2 h-full bg-variant min-h-[300px] lg:min-h-[300px]"
           className=""
         >
           <div className="max-w-xs">
@@ -68,6 +69,13 @@ const Features = () => {
               Participé en la implementación y mejora de funcionalidades críticas, contribuyendo al crecimiento y estabilidad de la plataforma.
             </p>
           </div>
+          <Image
+            src="/tunecore.svg"
+            width={400}
+            height={400}
+            alt="tunecore logo"
+            className="absolute -right-10 md:bottom-[30%] md:left-[50%] md:bottom-[30%] md:left-[50%]  lg:top-[30%] lg:left-[50%] lg:right-[5%] -bottom-10 object-contain rounded-2xl"
+          />
         </WobbleCard>
         <WobbleCard containerClassName="col-span-1 bg-variant min-h-[300px]">
           <h2 className="max-w-80 text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
