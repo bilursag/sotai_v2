@@ -25,7 +25,7 @@ const Footer = () => {
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2025 Sotai
         </p>
-        <div className="flex items-center md:gap-3 gap-6">
+        <div className="flex items-center my-4 md:gap-3 gap-6">
           {socialMedia.map((info) => (
             <div
               key={info.id}

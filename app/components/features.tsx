@@ -48,7 +48,7 @@ const Features = () => {
               adaptándome a diversos sectores y necesidades de clientes.
             </p>
           </div>
-          <div className="absolute -right-4 lg:-right-[10%] sm:top-[50%] xs:top-[50%] lg:top-[15%] filter -bottom-20 object-contain rounded-2xl">
+          <div className="relative sm:absolute md:absolute lg:absolute -right-4 lg:-right-[10%] sm:top-[50%] xs:top-[50%] lg:top-[15%] -bottom-20 object-contain rounded-2xl w-[500px] h-[500px]">
             <CodeBlock
               language="jsx"
               filename="DummyComponent.jsx"
@@ -74,7 +74,7 @@ const Features = () => {
             width={400}
             height={400}
             alt="tunecore logo"
-            className="absolute -right-10 md:bottom-[30%] md:left-[50%] md:bottom-[30%] md:left-[50%]  lg:top-[30%] lg:left-[50%] lg:right-[5%] -bottom-10 object-contain rounded-2xl"
+            className="sm:absolute md:absolute lg:absolute -right-10 md:bottom-[30%] md:left-[50%] lg:top-[30%] lg:left-[50%] lg:right-[5%] -bottom-10 object-contain rounded-2xl"
           />
         </WobbleCard>
         <WobbleCard containerClassName="col-span-1 bg-variant min-h-[300px]">
