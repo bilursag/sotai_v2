@@ -27,7 +27,7 @@ const Features = () => {
     };
   `;
   return (
-    <div>
+    <section id="work">
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex items-center justify-center">
           <TextGenerateEffect
@@ -86,7 +86,7 @@ const Features = () => {
           </p>
         </WobbleCard>
       </div>
-    </div>
+    </section>
   )
 }
 

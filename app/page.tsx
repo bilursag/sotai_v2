@@ -1,7 +1,9 @@
 import Features from "./components/features";
 import Footer from "./components/footer";
+import { Services } from "./components/services";
 //import Grid from "./components/grid";
 import Hero from "./components/ui/hero";
+import Stack from "./components/stack";
 import { FloatingNav } from "./components/ui/navbar-menu";
 import { navItems } from "./data";
 
@@ -13,6 +15,8 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Features />
+        <Services />
+        <Stack />
         <Footer />
       </div>
     </main>
