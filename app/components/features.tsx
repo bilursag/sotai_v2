@@ -31,7 +31,9 @@ const Features = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex items-center justify-center">
           <TextGenerateEffect
-            words="He colaborado con marcas y agencias para crear resultados impactantes."
+            words="
+              Cada proyecto en el que he trabajado ha sido una oportunidad para perfeccionar habilidades y aportar soluciones efectivas.
+            "
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
         </div>
@@ -43,9 +45,9 @@ const Features = () => {
               Desarrollador Independiente (Hasta 2025)
             </h2>
             <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-              Colaboro en múltiples proyectos, 
-              brindando soluciones a medida en desarrollo web y backend, 
-              adaptándome a diversos sectores y necesidades de clientes.
+              He colaborado directamente con distintas empresas y marcas, 
+              desarrollando software a medida en web y backend, 
+              adaptándome a diferentes industrias y necesidades específicas.
             </p>
           </div>
           <div className="relative sm:absolute md:absolute lg:absolute -right-4 lg:-right-[10%] sm:top-[50%] xs:top-[50%] lg:top-[15%] -bottom-20 object-contain rounded-2xl w-[500px] h-[500px]">
@@ -66,7 +68,7 @@ const Features = () => {
               Desarrollador Ruby on Rails en TuneCore (Hasta 2023)
             </h2>
             <p className="mt-4 text-left  text-base/6 text-neutral-200">
-              Participé en la implementación y mejora de funcionalidades críticas, contribuyendo al crecimiento y estabilidad de la plataforma.
+              Trabajé en la implementación y mejora de funcionalidades clave, contribuyendo a la estabilidad y crecimiento de la plataforma.
             </p>
           </div>
           <Image
@@ -82,7 +84,7 @@ const Features = () => {
             Gobierno Regional de Los Ríos (Hasta 2021)
           </h2>
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-            Desarrollé y mantuve aplicaciones para la gestión interna, optimizando procesos administrativos y mejorando la eficiencia operativa.
+            Desarrollé y mantuve aplicaciones internas para optimizar procesos administrativos y mejorar la eficiencia operativa.
           </p>
         </WobbleCard>
       </div>

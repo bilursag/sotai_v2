@@ -27,11 +27,13 @@ const Hero = () => {
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
               総体
             </p>
-            <MagicButton 
-              title="Ver servicios"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
+            <a href="#services">
+              <MagicButton 
+                title="Ver servicios"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
           </div>
         </div>   
       </div>

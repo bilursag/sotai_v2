@@ -50,7 +50,9 @@ export const HoverEffect = ({
           <Card>
             <div className="flex items-center gap-4">
               <CardTitle>{item.title}</CardTitle>
-              <div className="relative text-4xl">{item.icon}</div>
+              <div className="relative text-4xl">
+                {item.icon}
+              </div>
             </div>
             <CardDescription>{item.description}</CardDescription>
           </Card>
