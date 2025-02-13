@@ -11,7 +11,7 @@ export function Services() {
           Servicios
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Desde soluciones a medida hasta optimización de sistemas existentes, en Sotai ofrezco desarrollo full-stack enfocado en resultados
+          Desde soluciones a medida hasta optimización de sistemas existentes, en Sotai ofrezco desarrollo full-stack enfocado en resultados.
         </p>
       </div>
       <div className="max-w-5xl mx-auto px-8">

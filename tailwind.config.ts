@@ -22,6 +22,7 @@ export default {
         foreground: "var(--foreground)",
         purple: "#CBACF9",
         variant: "#04071d",
+        border: "hsl(var(--border))",
       },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
